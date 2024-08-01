@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton
+namespace DesignPatterns.Bridge
 {
-    internal class Program
+    public interface IColor
     {
-        static void Main(string[] args)
-        {
-        }
+        void ColorTheShape();
     }
 }

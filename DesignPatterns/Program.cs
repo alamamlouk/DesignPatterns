@@ -10,7 +10,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Singleton Program");
+/*            Console.WriteLine("Singleton Program");
             Singleton.Program singleton = new Singleton.Program();
             singleton.SingletonProgram();
             Console.WriteLine("-----------------------");
@@ -21,6 +21,14 @@ namespace DesignPatterns
             Console.WriteLine("Prototype Program");
             Prototype.Program  prototype = new Prototype.Program();
             prototype.PrototypeProgram();
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Adapter Program");
+            Adapter.Program adapter = new Adapter.Program();   
+            adapter.AdapterProgram()*/;
+            Console.WriteLine("-----------------------");  
+            Console.WriteLine("Bridge Program");
+            Bridge.Program bridge = new Bridge.Program();
+            bridge.BridgeProgram();
         }
     }
 }

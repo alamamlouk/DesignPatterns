@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\EuroProcessPayment.cs" />
+    <Compile Include="Adapter\IPaymentProcess.cs" />
+    <Compile Include="Adapter\PaymentProcessAdapter.cs" />
+    <Compile Include="Adapter\Program.cs" />
+    <Compile Include="Bridge\Circle.cs" />
+    <Compile Include="Bridge\Green.cs" />
+    <Compile Include="Bridge\Program.cs" />
+    <Compile Include="Bridge\Rectangle.cs" />
+    <Compile Include="Bridge\Red.cs" />
+    <Compile Include="Bridge\IColor.cs" />
+    <Compile Include="Bridge\Shape.cs" />
     <Compile Include="Builder\CarBuilder\CarBuilder.cs" />
     <Compile Include="Builder\Director.cs" />
     <Compile Include="Builder\Entity\Car.cs" />
@@ -61,8 +72,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Adapter\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
