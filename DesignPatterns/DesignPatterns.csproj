@@ -59,6 +59,12 @@
     <Compile Include="Builder\Entity\Car.cs" />
     <Compile Include="Builder\Interfaces\ICarBuilder.cs" />
     <Compile Include="Builder\Program.cs" />
+    <Compile Include="Decorator\EggsDecorator.cs" />
+    <Compile Include="Decorator\HrisaDecorator.cs" />
+    <Compile Include="Decorator\IMealOption.cs" />
+    <Compile Include="Decorator\LablebiDecorator.cs" />
+    <Compile Include="Decorator\Main.cs" />
+    <Compile Include="Decorator\MealOption.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\Document.cs" />

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-/*            Console.WriteLine("Singleton Program");
+/*          Console.WriteLine("Singleton Program");
             Singleton.Program singleton = new Singleton.Program();
             singleton.SingletonProgram();
             Console.WriteLine("-----------------------");
@@ -29,6 +29,11 @@ namespace DesignPatterns
             Console.WriteLine("Bridge Program");
             Bridge.Program bridge = new Bridge.Program();
             bridge.BridgeProgram();
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Decorator Program");
+            Decorator.Main decorator = new Decorator.Main();
+            decorator.MainProgram();
+            
         }
     }
 }
