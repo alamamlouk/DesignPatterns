@@ -10,6 +10,7 @@ namespace DesignPatterns.Adapter
     {
         public void AdapterProgram()
         {
+            Console.WriteLine("Welcome to Payment Process");
             Console.WriteLine("which currency you are using");
             Console.WriteLine("1. USD");
             Console.WriteLine("2. Euro");

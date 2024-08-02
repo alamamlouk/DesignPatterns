@@ -9,5 +9,6 @@ namespace DesignPatterns.Adapter
     public interface IPaymentProcess
     {
         void ProcessPayment(double amount);
+        
     }
 }
