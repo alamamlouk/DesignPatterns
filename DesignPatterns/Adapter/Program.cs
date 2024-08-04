@@ -8,7 +8,7 @@ namespace DesignPatterns.Adapter
 {
     public class Program
     {
-        public void AdapterProgram()
+        public void Pay()
         {
             Console.WriteLine("Welcome to Payment Process");
             Console.WriteLine("which currency you are using");
@@ -20,8 +20,8 @@ namespace DesignPatterns.Adapter
             switch (currency)
             {
                 case 1:
-                    IPaymentProcess paymentProcess = new PaymentProcessAdapter();
-                    paymentProcess.ProcessPayment(amount);
+                    IPaymentProcess paymentProcessInUSD = new PaymentProcessAdapter();
+                    paymentProcessInUSD.ProcessPayment(amount);
                     break;
                 case 2:
                     IPaymentProcess paymentProcessInEuro = new EuroProcessPayment();
@@ -31,7 +31,6 @@ namespace DesignPatterns.Adapter
                     Console.WriteLine("Invalid currency");
                     break;
             }
-           
         }
     }
 }

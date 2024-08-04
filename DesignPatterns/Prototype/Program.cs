@@ -8,7 +8,7 @@ namespace DesignPatterns.Prototype
 {
     public class Program
     {
-        public void PrototypeProgram()
+        public void MakeCopies()
         {
           
             Register register = new Register();

@@ -10,8 +10,8 @@ namespace DesignPatterns.Builder
     public class Program
     {
         CarBuilder builder = new CarBuilder();
-        Director director = new Director();
-        public void BuilderProgram()
+        CarDirector director = new CarDirector();
+        public void BuildCar()
         {
             director.BuildSuperCar(builder);
             Console.WriteLine(builder.GetCar().ToString());

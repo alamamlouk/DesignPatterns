@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Builder
 {
-    public class Director
+    public class CarDirector
     {
         public void BuildSuperCar(ICarBuilder carBuilder)
         {

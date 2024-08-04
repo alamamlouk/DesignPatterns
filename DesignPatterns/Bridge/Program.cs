@@ -8,7 +8,7 @@ namespace DesignPatterns.Bridge
 {
     public class Program
     {
-        public void BridgeProgram()
+        public void Darw()
         {
             Shape circle = new Circle(new Red());
             Shape rectangle = new Rectangle(new Green());

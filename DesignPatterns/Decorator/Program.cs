@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Decorator
 {
-    internal class Main
+    public class Program
     {
-        public void MainProgram()
+        public void MakeLablebi()
         {
             IMealOption mealOption = new HrisaDecorator(new EggsDecorator(new MealOption()));
             mealOption.AddMealOption("Souce");
